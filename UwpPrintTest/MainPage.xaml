@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="UwpPrintTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UwpPrintTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="470" Margin="188,93,0,0" VerticalAlignment="Top" Width="401" Source="Image/hh561749_claudia_spwp_02(l=ja-jp).jpg"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="963,633,0,0" VerticalAlignment="Top" Height="41" Width="166" Click="button_Click"/>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="760,633,0,0" VerticalAlignment="Top" Height="41" Width="138" Click="button1_Click"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="470" Margin="689,93,0,0" VerticalAlignment="Top" Width="401" Source="Image/Surface_Pro_3_pvrgaa5551-img600x450-1460350433irka0i29044.jpg"/>
+
+    </Grid>
+</Page>
